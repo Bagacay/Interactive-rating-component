@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #141519;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.wrapper{
+    background-color: #1e252f;
+    border-radius: 20px;
+    max-width: 390px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.star{
+    background-color: #292e35;
+    border-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 2em;
+    padding: .5em;
+    width: 40px;
+}
+
+.wrapper h2{
+    color: white;
+    margin-bottom: .5em;
+}
+
+.wrapper p{
+    color: #8a909c;
+    font-size: .9rem;
+    line-height: 1.9;
+    margin-bottom: 1.5em;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratings li{
+    list-style: none;
+    
+}
+
+.ratings li button{
+    background-color: #262f38;
+    border-radius: 50%;
+    border-style: none;
+    color: gray;
+    cursor: pointer;
+    height: 50px;
+    margin-bottom: 1.5em;
+    width: 50px;
+}
+
+.ratings li button:hover{
+    background-color: #7d8797;
+    color: white;
+}
+
+.ratings li button:active{
+    background-color: #fc7613;
+}
+
+.submit-btn{
+    background-color: #fc7613;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+    padding: 1em 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.submit-btn:hover{
+    background-color: white;
+    color: #fc7613;
+}
